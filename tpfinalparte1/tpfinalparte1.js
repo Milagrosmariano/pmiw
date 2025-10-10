@@ -194,7 +194,7 @@ function draw() {
   fill(255); 
   textSize(17);
   textAlign(CENTER, CENTER);
-  text(frag[15], width / 2, height - 120);
+  text(frag[17], width / 2, height - 120);
   dibujarBoton(posXBoton2, posYBoton2, "Siguiente");
   }
   if(indice === 19){
@@ -281,3 +281,4 @@ function keyPressed() {
     especial.stop();
     sirenasonando = false; 
 } }
+
